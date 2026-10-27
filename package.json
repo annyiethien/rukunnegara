@@ -1,0 +1,14 @@
+{
+  "name": "sejarahmate-telegram-bot",
+  "version": "1.0.0",
+  "description": "SejarahMate AI — Telegram Bot for Rukun Negara learning",
+  "main": "telegram-bot.js",
+  "scripts": {
+    "start": "node telegram-bot.js",
+    "dev": "node --watch telegram-bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.0.0"
+  }
+}
